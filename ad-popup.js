@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
         .close-btn {
             position: fixed !important;
         }
-            
+
         .floating-invite {
             z-index:1112 !important;
             position: fixed;
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
     inviteImage.alt = 'Play Games & Apps without installation';
 
     const inviteText = document.createElement('div');
-    inviteText.textContent = 'Free Play Games & Apps without installation';
+    inviteText.textContent = 'Play Free Games & Apps without installation';
 
     floatingInvite.appendChild(inviteImage);
     floatingInvite.appendChild(inviteText);
