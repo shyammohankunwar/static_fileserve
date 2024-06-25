@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
         .floating-invite {
+            z-index:1112 !important;
             position: fixed;
             bottom: 20px;
             right: 20px;
@@ -62,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
     floatingInvite.className = 'floating-invite';
 
     const inviteImage = document.createElement('img');
-    inviteImage.src = './purple_running_runner_game.gif';
+    inviteImage.src = 'https://cdn.jsdelivr.net/gh/shyammohankunwar/static_fileserve/purple_running_runner_game.gif';
     inviteImage.alt = 'Play Games & Apps without installation';
 
     const inviteText = document.createElement('div');
