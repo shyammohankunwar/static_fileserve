@@ -13,6 +13,17 @@ document.addEventListener("DOMContentLoaded", function() {
                 transform: translateY(0);
             }
         }
+        
+        div#floatingInvite div {
+            border: 2px solid white;
+            background: #73c7c0;
+            color: white;
+        }
+
+        .close-btn {
+            position: fixed !important;
+        }
+            
         .floating-invite {
             z-index:1112 !important;
             position: fixed;
