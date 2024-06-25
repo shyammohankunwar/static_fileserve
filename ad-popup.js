@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         .close-btn {
             position: fixed !important;
+            z-index: 1112 !important;
         }
 
         .floating-invite {
